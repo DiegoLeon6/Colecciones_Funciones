@@ -1,12 +1,13 @@
 frase = input("Ingrese una frase: ")
 
-palabras = frase.split()      # Separar por espacios
-conteo = {}                   # Diccionario vacío
+palabras = frase.split()      
+conteo = {}                  
 
 for palabra in palabras:
-    if palabra in conteo:     # Si ya existe en el diccionario
-        conteo[palabra] += 1  # Incrementar el contador
+    if palabra in conteo:    
+        conteo[palabra] += 1 
     else:
-        conteo[palabra] = 1   # Primera vez que aparece
+        conteo[palabra] = 1 
 
 print(conteo)
+
