@@ -7,9 +7,10 @@ entradaB = input("Ingrese los elementos del conjunto B separados por espacio: ")
 B = set(int(x) for x in entradaB)
 
 
-union = A | B          # Unión
-diferencia = A - B     # Diferencia
+union = A | B        
+diferencia = A - B   
 
 print("Unión:", union)
 print("Diferencia:", diferencia)
+
 
