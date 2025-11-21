@@ -4,7 +4,7 @@ def potencia(base, exponente):
     else:
         return base * potencia(base, exponente - 1)
 
-# Ejemplo de uso
 b = int(input("Ingrese la base: "))
 e = int(input("Ingrese el exponente: "))
 print("Resultado:", potencia(b, e))
+
