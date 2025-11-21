@@ -8,9 +8,10 @@ def es_primo(n):
             return False
     return True
 
-# Ejemplo de uso
+
 numero = int(input("Ingrese un número: "))
 if es_primo(numero):
     print(numero, "es primo")
 else:
     print(numero, "no es primo")
+
