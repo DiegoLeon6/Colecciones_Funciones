@@ -1,4 +1,3 @@
-# Funciones independientes
 def sumar(a, b):
     return a + b
 
@@ -14,7 +13,7 @@ def dividir(a, b):
     else:
         return "Error: división por cero"
 
-# Función principal
+
 def calculadora():
     a = float(input("Ingrese el primer número: "))
     b = float(input("Ingrese el segundo número: "))
@@ -31,5 +30,6 @@ def calculadora():
     else:
         print("Operación no válida")
 
-# Llamar a la calculadora
+
 calculadora()
+
