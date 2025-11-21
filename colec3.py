@@ -1,6 +1,5 @@
 n = int(input("Ingrese el tamaño de la matriz identidad: "))
 
-# Crear la matriz identidad
 matriz = []
 
 for i in range(n):
@@ -12,6 +11,6 @@ for i in range(n):
             fila.append(0)
     matriz.append(fila)
 
-# Mostrar la matriz
 for fila in matriz:
     print(fila)
+
