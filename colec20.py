@@ -1,4 +1,4 @@
-# Diccionario A
+
 a1 = input("A - Par 1 (clave: valor): ")
 a2 = input("A - Par 2 (clave: valor): ")
 
@@ -9,7 +9,7 @@ A[c1.strip()] = v1.strip()
 c2, v2 = a2.split(":")
 A[c2.strip()] = v2.strip()
 
-# Diccionario B
+
 b1 = input("B - Par 1 (clave: valor): ")
 b2 = input("B - Par 2 (clave: valor): ")
 
@@ -24,3 +24,4 @@ B[c4.strip()] = v4.strip()
 A.update(B)
 
 print(A)
+
